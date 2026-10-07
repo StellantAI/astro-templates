@@ -5,7 +5,9 @@
     "templatesRepository": "emdash-cms/templates",
     "templatesCommit": "1930243108073ebb41ff48533678af7635b01c37",
     "previewRepository": "emdash-cms/emdash",
-    "previewCommit": "0a929da1b4de80c7f82f23458c2b6282455062bb"
+    "previewCommit": "0a929da1b4de80c7f82f23458c2b6282455062bb",
+    "blankRepository": "emdash-cms/emdash",
+    "blankCommit": "b5f37c646f3639f07ebdc090e0ffcf48bdb4d684"
   },
   "templates": [
     {
