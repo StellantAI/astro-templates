@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "emdashVersion": "1.2.0",
   "upstream": {
     "templatesRepository": "emdash-cms/templates",
@@ -11,34 +11,47 @@
   },
   "templates": [
     {
+      "type": "website",
       "name": "blank",
-      "path": "templates/blank",
+      "path": "templates/website/blank",
       "description": "A minimal page and EmDash setup. Build your own layout from the ground up.",
       "preview": null
     },
     {
+      "type": "website",
       "name": "starter",
-      "path": "templates/starter",
+      "path": "templates/website/starter",
       "description": "Pages, posts, categories, and tags with a simple design you can shape.",
       "preview": null
     },
     {
+      "type": "website",
       "name": "blog",
-      "path": "templates/blog",
+      "path": "templates/website/blog",
       "description": "Posts, categories, search, RSS, and a featured story layout.",
-      "preview": "templates/previews/blog-homepage.jpg"
+      "preview": "templates/website/previews/blog-homepage.jpg"
     },
     {
+      "type": "website",
       "name": "marketing",
-      "path": "templates/marketing",
+      "path": "templates/website/marketing",
       "description": "Landing pages with hero, features, testimonials, pricing, and FAQ.",
-      "preview": "templates/previews/marketing-homepage.jpg"
+      "preview": "templates/website/previews/marketing-homepage.jpg"
     },
     {
+      "type": "website",
       "name": "portfolio",
-      "path": "templates/portfolio",
+      "path": "templates/website/portfolio",
       "description": "A project grid, case studies, galleries, and filtering.",
-      "preview": "templates/previews/portfolio-homepage.jpg"
+      "preview": "templates/website/previews/portfolio-homepage.jpg"
+    },
+    {
+      "type": "app",
+      "name": "StellantAI",
+      "path": "templates/app/LibreApp/StellantAI",
+      "description": "Reserved for a future LibreApp template based on the StellantAI client.",
+      "preview": null,
+      "status": "placeholder"
     }
   ]
 }
