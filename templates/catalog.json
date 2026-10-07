@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "upstream": {
+    "templatesRepository": "emdash-cms/templates",
+    "templatesCommit": "1930243108073ebb41ff48533678af7635b01c37",
+    "previewRepository": "emdash-cms/emdash",
+    "previewCommit": "0a929da1b4de80c7f82f23458c2b6282455062bb"
+  },
+  "templates": [
+    {
+      "name": "blank",
+      "path": "templates/blank",
+      "description": "A minimal page and EmDash setup. Build your own layout from the ground up.",
+      "preview": null
+    },
+    {
+      "name": "starter",
+      "path": "templates/starter",
+      "description": "Pages, posts, categories, and tags with a simple design you can shape.",
+      "preview": null
+    },
+    {
+      "name": "blog",
+      "path": "templates/blog",
+      "description": "Posts, categories, search, RSS, and a featured story layout.",
+      "preview": "templates/previews/blog-homepage.jpg"
+    },
+    {
+      "name": "marketing",
+      "path": "templates/marketing",
+      "description": "Landing pages with hero, features, testimonials, pricing, and FAQ.",
+      "preview": "templates/previews/marketing-homepage.jpg"
+    },
+    {
+      "name": "portfolio",
+      "path": "templates/portfolio",
+      "description": "A project grid, case studies, galleries, and filtering.",
+      "preview": "templates/previews/portfolio-homepage.jpg"
+    }
+  ]
+}
