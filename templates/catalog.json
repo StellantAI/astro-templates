@@ -1,5 +1,6 @@
 {
   "schemaVersion": 1,
+  "emdashVersion": "1.2.0",
   "upstream": {
     "templatesRepository": "emdash-cms/templates",
     "templatesCommit": "1930243108073ebb41ff48533678af7635b01c37",

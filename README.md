@@ -10,7 +10,7 @@ Free Astro and EmDash site starters. The Node.js templates in [`templates/`](tem
 | Marketing | [`templates/marketing`](templates/marketing) | [`templates/marketing-cloudflare`](templates/marketing-cloudflare) |
 | Portfolio | [`templates/portfolio`](templates/portfolio) | [`templates/portfolio-cloudflare`](templates/portfolio-cloudflare) |
 
-The Node.js variants use local SQLite and file storage. The Cloudflare variants are included as upstream reference projects but are not offered in the Docker launcher. The launcher reads [`templates/catalog.json`](templates/catalog.json) and pins this repository's Git commit when it copies a template. It also resolves and pins the current stable EmDash release separately.
+The Node.js variants use local SQLite and file storage. The Cloudflare variants are included as upstream reference projects but are not offered in the Docker launcher. The launcher reads [`templates/catalog.json`](templates/catalog.json) and pins this repository's Git commit when it copies a template. The catalog pins the tested EmDash release (`1.2.0` in this snapshot) alongside the template source.
 
 ## Source and license
 
